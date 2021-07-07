@@ -8,3 +8,4 @@
 #### **SELECT DISTINCT column_name1, column_name2 FROM table_name** - It basically removes the duplicate entries from the column and shows it. It might make more sense.
 #### **SELECT column_name FROM table_name LIMIT (number of records)** - It only shows the top number of records from column_name.
 #### **SELECT column_name FROM table_name OFFSET (starting_number) LIMIT (ending_number)** - It only shows the records from starting_number(exluding it) to ending_number from the table_name.
+#### **SELECT * FROM table_name ORDER BY column_name** - It is used to sort the given column.
