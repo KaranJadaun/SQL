@@ -15,3 +15,7 @@
 #### **SELECT column_name FROM table_name WHERE condition1 AND condition2** - It is used to combine two or more conditons in where statements and it is true only and only when both conditions are true.
 #### **SELECT column_name FROM table_name WHERE condition1 OR condition2** - It is used to combine two or more conditons in where statements and it is true when either one of the statements are true or both are true.
 #### **SELECT column_name FROM table_name WHERE condition1 AND (condition2 OR condition3)** - It is used to combine multiple statements in where statements by using both operators AND / OR.
+#### **SELECT column_name FROM table_name WHERE condition1 IN (condition2, condition3, condition4)** - It is used to refer something in the conditions, also used instead of multiple or statements.
+#### **SELECT column_name FROM table_name WHERE condition1 NOT IN (condition2, condition3, condition4)** - It is used to not refer something in the conditions, also used instead of multiple or statements.
+#### **SELECT CONCACT('column_name1', ',', 'column_name2') FROM table_name** -  It is used to concatenate two or more text values and returns the concatenating string.
+#### **SELECT CONCACT('column_name1', ',', 'column_name2') AS new_column FROM table_name** - This type of concatination results in a new column.
