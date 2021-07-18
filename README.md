@@ -27,3 +27,5 @@
 #### **Sum Function** - This is used to find the sum of the whole column_name.
 #### **ASC Keyword** - For ascending order, use with order by.
 #### **DESC Keyword** - For descending order, use with order by.
+#### **SELECT column_name(s) FROM table_name WHERE column_name LIKE A%;** - This is used to show database in a unique manner like this with shows all the entries starting from a in column_name.
+#### **Min Function** - This is used to find the minimun number in the column_name.
