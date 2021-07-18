@@ -19,3 +19,11 @@
 #### **SELECT column_name FROM table_name WHERE condition1 NOT IN (condition2, condition3, condition4)** - It is used to not refer something in the conditions, also used instead of multiple or statements.
 #### **SELECT CONCACT('column_name1', ',', 'column_name2') FROM table_name** -  It is used to concatenate two or more text values and returns the concatenating string.
 #### **SELECT CONCACT('column_name1', ',', 'column_name2') AS new_column FROM table_name** - This type of concatination results in a new column.
+#### **Upper Function** - This is used to uppercase all the letters of the column_name.
+#### **Lower Function** - This is used to lowercase all the letters of the column_name. 
+#### **Sqrt Function** - This is used to find square root of the column_name.
+#### **Avg Function** - This is used to find the average of the whole column_name.
+#### **Power(a,b) Function** - This is used to find the power of a raised to be the power of b.
+#### **Sum Function** - This is used to find the sum of the whole column_name.
+#### **ASC Keyword** - For ascending order, use with order by.
+#### **DESC Keyword** - For descending order, use with order by.
