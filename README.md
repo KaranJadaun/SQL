@@ -82,3 +82,11 @@
 #### password varchar(10) NOT NULL,
 #### PRIMARY KEY(id)
 #### );
+#### - The ALTER TABLE command is used to add, delete, or modify columns in an existing table.
+#### **ALTER TABLE table_name ADD dateofbirth date** - This is used to add a new column in table_name which is named as dateofbirth which have a datatype of data and data inserted in it is NULL.
+#### **ALTER TABLE table_name DROP COLUMN dateofbirth** - This is used to delete a column from table_name.
+#### **DROP TABLE table_name** - This is used to delete the entire table from the database.
+#### **ALTER TABLE table_name RENAME column_name TO column_name1** - This is used to rename the column_name to column_name1.
+#### **CREATE VIEW view_name AS SELECT column_name(s) FROM table_name WHERE condition** - This simply creates a view of the table and rest of the codes are same as above.
+#### **CREATE OR REPLACE VIEW view_name A SELECT column_name(s) FROM table_name WHERE condition1** - This is used to add column_name if case you forgot it. 
+#### **DROP VIEW view_name** - This is used to create the whole view.
