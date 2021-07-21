@@ -74,3 +74,11 @@
 #### PRIMARY KEY - Enforces the table to accept unique data for a specific column and this constraint create a unique index for accessing the table faster.
 #### CHECK - Determines whether the value is valid or not from a logical expression.
 #### DEFAULT - While inserting data into a table, if no value is supplied to a column, then the column gets the value set as DEFAULT.
+#### UserID int NOT NULL AUTO_INCREMENT, PRIMARY KEY (UserID) - This auto increment allows the unique userid to increment its value by 1. It does not require to add unique userid everytime when you insert a row.
+#### Example of auto increment - 
+#### - CREATE TABLE Users (
+#### id int NOT NULL AUTO_INCREMENT,
+#### username varchar(40) NOT NULL, 
+#### password varchar(10) NOT NULL,
+#### PRIMARY KEY(id)
+#### );
