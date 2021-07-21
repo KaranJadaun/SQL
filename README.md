@@ -30,3 +30,19 @@
 #### **SELECT column_name(s) FROM table_name WHERE column_name LIKE A%** - This is used to show database in a unique manner like this with shows all the entries starting from a in column_name.
 #### **Min Function** - This is used to find the minimun number in the column_name.
 #### **SELECT table_name.column_name1, table_name.column_name2.... FROM table_name1, table_name2 WHERE table_name1.ID = table_name2.customersID ORDER BY table_name1.ID** - This is a joining feauture that helps into joining two or more table into one temporary table. You can select which column you need from which table. The syntax is written above.\
+#### **SELECT tn.column_name1, tn2.column_name2.... FROM table_name1 AS tn, table_name2 AS tn2 WHERE tn.ID = tn2.customersID ORDER BY tn.ID** - You can also customise the name of the table to make it simple for you to write the code. 
+#### -The following are the types of JOIN that can be used in MySQL:
+####   - INNER JOIN
+####   - LEFT JOIN
+####   - RIGHT JOIN 
+#### **SELECT column_name(s) FROM table1 INNER JOIN table2 ON table1.column_name=table2.column_name** - This inner join feature which returns table when there is a match between them.
+#### - Replace INNER JOIN by LEFT OUTER JOIN, RIGHT OUTER JOIN for performing LEFT JOIM and RIGHT JOIN function.
+#### To accomplish this, use the UNION and UNION ALL operators.
+####   - UNION combines multiple datasets into a single dataset, and removes any existing duplicates.
+####   - UNION ALL combines multiple datasets into one dataset, but does not remove duplicate rows.
+#### **SELECT column_name(s) FROM table1 UNION SELECT column_name(s) FROM table2** - This Function combines two or more tables and removes the duplicates from the table. It should be of same number of column and have the same type of data.
+#### **SELECT column_name(s) FROM table1 UNION ALL SELECT column_name(s) FROM table2** - This Function also combines two or more tables and doesn't remove the duplicates from the table. It also should be of the same number and have the same data data type but if you have one extra column you can use null set.
+#### **INSERT INTO table_name VALUES (value1, value2, value3,...)** - You can add a row to a table by using the insert into function amd by adding the values corrosponding to the column(s).
+#### **INSERT INTO table_name (column1, column2, column3, ...,columnN) VALUES (value1, value2, value3,...valueN)** - This is an another way of inserting the data into datasets. It is exactly same as INSERT INTO.
+#### - If you want to add data to only specific column you can add only on those and the rest of the columns remains null. That will not create an issue.
+#### 
