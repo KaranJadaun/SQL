@@ -45,4 +45,32 @@
 #### **INSERT INTO table_name VALUES (value1, value2, value3,...)** - You can add a row to a table by using the insert into function amd by adding the values corrosponding to the column(s).
 #### **INSERT INTO table_name (column1, column2, column3, ...,columnN) VALUES (value1, value2, value3,...valueN)** - This is an another way of inserting the data into datasets. It is exactly same as INSERT INTO.
 #### - If you want to add data to only specific column you can add only on those and the rest of the columns remains null. That will not create an issue.
-#### 
+#### **UPDATE table_name SET column1=value1, column2=value2,... WHERE condition** - This is used to update the table values where conditions maybe id number or any another value which specify the unique row. 
+#### **DELETE FROM table_name WHERE condition** - This is used to delete the specific row or column where conditions specify the unique row.
+#### - A single database can house hundreds of tables, each playing its own unique role in the database schema.
+#### - SQL tables are comprised of table rows and columns. 
+#### - Table columns are responsible for storing many different types of data, including numbers, texts, dates, and even files.
+#### - CREATE TABLE table_name 
+#### (
+#### column_name1 data_type(size),
+#### column_name2 data_type(size),
+#### column_name3 data_type(size),
+#### ....
+#### column_nameN data_type(size)
+#### )
+#### - Example - 
+#### CREATE TABLE Users
+#### (
+#### UserID int,
+#### FirstName varchar(100), 
+#### LastName varchar(100),
+#### City varchar(100),
+#### PRIMARY KEY(UserId) 
+#### ); 
+#### - After creating the table you can add values by using INSERT INTO function.
+#### - The following are commonly used SQL constraints:
+#### NOT NULL - Indicates that a column cannot contain any NULL value.
+#### UNIQUE - Does not allow to insert a duplicate value in a column. The UNIQUE constraint maintains the uniqueness of a column in a table. More than one UNIQUE column can be used in a table.
+#### PRIMARY KEY - Enforces the table to accept unique data for a specific column and this constraint create a unique index for accessing the table faster.
+#### CHECK - Determines whether the value is valid or not from a logical expression.
+#### DEFAULT - While inserting data into a table, if no value is supplied to a column, then the column gets the value set as DEFAULT.
