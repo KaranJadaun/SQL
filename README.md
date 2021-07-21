@@ -27,5 +27,6 @@
 #### **Sum Function** - This is used to find the sum of the whole column_name.
 #### **ASC Keyword** - For ascending order, use with order by.
 #### **DESC Keyword** - For descending order, use with order by.
-#### **SELECT column_name(s) FROM table_name WHERE column_name LIKE A%;** - This is used to show database in a unique manner like this with shows all the entries starting from a in column_name.
+#### **SELECT column_name(s) FROM table_name WHERE column_name LIKE A%** - This is used to show database in a unique manner like this with shows all the entries starting from a in column_name.
 #### **Min Function** - This is used to find the minimun number in the column_name.
+#### **SELECT table_name.column_name1, table_name.column_name2.... FROM table_name1, table_name2 WHERE table_name1.ID = table_name2.customersID ORDER BY table_name1.ID** - This is a joining feauture that helps into joining two or more table into one temporary table. You can select which column you need from which table. The syntax is written above.\
